@@ -1,0 +1,17 @@
+{
+  "name": "SummitMindsAssignmnet",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "Tejas Wadke",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}

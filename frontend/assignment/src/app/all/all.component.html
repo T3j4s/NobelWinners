@@ -1,0 +1,23 @@
+<div
+  class="container-fluid fixed-container d-flex justify-content-center fixed-bottom"
+>
+  <button routerLink="/" class="btn btn-primary d-block my-4">Back</button>
+</div>
+<div class="container-fluid" [hidden]="toggler">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">year</th>
+        <th scope="col">Category</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let winner of result">
+        <td>{{ winner.firstname }}</td>
+        <td>{{ winner.year }}</td>
+        <td>{{ winner.category }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
